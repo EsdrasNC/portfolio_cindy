@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Almarena-bold";
+  src: url("../fonts/AlmarenaNeueDisplay-BoldItalic-iF66afd734c857c.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: "Almarena-normal";
+  src: url("../fonts/AlmarenaNeueDisplay-Light-iF66afd734ddfb2.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
