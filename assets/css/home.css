@@ -339,6 +339,10 @@ li {
     margin-top: 25px;
     font-size: 18px;
   }
+  h1 {
+    font-size: 8em;
+    font-family: "Almarena-bold", sans-serif;
+}
   /*APRESENTAÇÃO INICIAL*/
   .geral_01 {
     width: 100%;
@@ -487,7 +491,7 @@ li {
   }
   #geral_sobre {
     width: 100%;
-    height: 95vh;
+    height: 130vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -524,7 +528,7 @@ li {
     color: #000000;
     margin: 0;
     /* margin-top: 8px; */
-    font-size: 46px;
+    font-size: 42px;
     text-align: end;
   }
   #geral_orcamento {
@@ -535,7 +539,7 @@ li {
     flex-direction: column;
   }
   .titulo_orcamento {
-    font-size: 45px;
+    font-size: 40px;
     display: flex;
     align-items: center;
     flex-direction: column;
