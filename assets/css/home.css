@@ -342,6 +342,14 @@ li {
   h1 {
     font-size: 8em;
     font-family: "Almarena-bold", sans-serif;
+  }
+  ul, li {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
 }
   /*APRESENTAÇÃO INICIAL*/
   .geral_01 {
@@ -414,12 +422,15 @@ li {
   .space_02 {
     height: 5vh;
   }
+  .nav{
+    display: none;
+  }
   .nav_bar {
     width: 100%;
     height: 8vh;
     display: flex;
     justify-content: center;
-    gap: 0;
+    gap: 140px;
   }
   .img_logo {
     background-image: url(../imagens/logo_roxo_cg.png);
@@ -543,7 +554,7 @@ li {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
+  }
   /*footer*/
   .footer_cindy {
     /* height: 5vh; */
@@ -558,4 +569,43 @@ li {
     flex-direction: column;
     align-items: center;
   }
+
+  /* Estilo base do menu */
+.nav {
+  display: none; /* Oculto por padrão */
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  background-color: #333;
+  padding: 1rem;
+  border-radius: 8px;
+  z-index: 10;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Estilo dos itens do menu */
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  margin: 10px 0;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Mostra o menu quando o checkbox está marcado */
+#burger:checked ~ .nav {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
+}
 }
