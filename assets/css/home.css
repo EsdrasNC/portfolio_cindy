@@ -680,7 +680,7 @@ li {
     height: 100vh;
   }
   #portfolio_geral {
-    height: 320vh;
+    height: 310vh;
     display: flex;
     flex-direction: column;
   }
