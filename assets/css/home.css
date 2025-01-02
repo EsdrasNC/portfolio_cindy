@@ -149,7 +149,7 @@ li {
 }
 /*PORTFÓLIO*/
 #portfolio_geral {
-  height: 150vh;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
@@ -174,6 +174,11 @@ li {
 }
 .grid_apresentacao {
   width: 100%;
+  height: 140vh;
+}
+.grid_apresentacao_social {
+  width: 100%;
+  height: 160vh;
 }
 .box_duplo {
   display: flex;
@@ -182,6 +187,15 @@ li {
   gap: 60px;
   width: 100%;
   height: 55vh;
+}
+.box_duplo_social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+  width: 100%;
+  height: 55vh;
+  flex-wrap: wrap;
 }
 .box_unico {
   display: flex;
@@ -216,6 +230,51 @@ li {
   background-color: rgb(255, 174, 0);
   width: 100%;
   height: 70vh;
+  border-radius: 20px;
+}
+.sm_01 {
+  background-image: url(../imagens/pet_social.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: blue;
+  width: 45%;
+  height: 50vh;
+  border-radius: 20px;
+}
+.sm_02 {
+  background-image: url(../imagens/beleza_social.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgb(255, 174, 0);
+  width: 45%;
+  height: 50vh;
+  border-radius: 20px;
+}
+.sm_03 {
+  background-image: url(../imagens/mercado_social.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgb(255, 174, 0);
+  width: 45%;
+  height: 50vh;
+  border-radius: 20px;
+}
+.sm_04 {
+  background-image: url(../imagens/aquitetura_social.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgb(255, 174, 0);
+  width: 45%;
+  height: 50vh;
+  border-radius: 20px;
+}
+.sm_05 {
+  background-image: url(../imagens/construtora_social.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgb(255, 174, 0);
+  width: 45%;
+  height: 50vh;
   border-radius: 20px;
 }
 /*SOBRE*/
@@ -321,15 +380,15 @@ li {
     gap: 60px;
     width: 95%;
     height: 200px;
-}
-.box_duplo {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 55px;
-  width: 100%;
-  height: 55vh;
-}
+  }
+  .box_duplo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 55px;
+    width: 100%;
+    height: 55vh;
+  }
   .text_apresentacao {
     height: 35%;
     width: 100%;
@@ -531,6 +590,16 @@ li {
     width: 100%;
     height: 50vh;
   }
+  .box_duplo_social {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    height: 190vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
   .id_01 {
     background-image: url(../imagens/cartão_visita_cindy-celular.png);
     background-repeat: no-repeat;
@@ -558,14 +627,60 @@ li {
     height: 26vh;
     border-radius: 20px;
   }
+  .sm_01 {
+    background-image: url(../imagens/pet_social_celular.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: blue;
+    width: 100%;
+    height: 50vh;
+    border-radius: 20px;
+  }
+  .sm_02 {
+    background-image: url(../imagens/beleza_social_celular.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(255, 174, 0);
+    width: 100%;
+    height: 50vh;
+    border-radius: 20px;
+  }
+  .sm_03 {
+    background-image: url(../imagens/mercado_social_celular.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(255, 174, 0);
+    width: 100%;
+    height: 50vh;
+    border-radius: 20px;
+  }
+  .sm_04 {
+    background-image: url(../imagens/aquitetura_social_celular.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(255, 174, 0);
+    width: 100%;
+    height: 50vh;
+    border-radius: 20px;
+  }
+  .sm_05 {
+    background-image: url(../imagens/construtora_social_celular.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(255, 174, 0);
+    width: 100%;
+    height: 50vh;
+    border-radius: 20px;
+  }
   .grid_apresentacao {
     width: 100%;
     display: flex;
     gap: 30px;
     flex-direction: column;
+    height: 100vh;
   }
   #portfolio_geral {
-    height: 110vh;
+    height: 400vh;
     display: flex;
     flex-direction: column;
   }
