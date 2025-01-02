@@ -343,17 +343,17 @@ li {
     gap: 0px;
     justify-content: center;
   }
-  .text_identidade{
+  .text_identidade {
     text-align: justify;
   }
-    /*AORÇAMENTO*/
+  /*AORÇAMENTO*/
   #geral_orcamento {
     width: 100%;
     height: 65vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
+  }
 }
 
 /* Tablet (entre 768px e 991px) */
