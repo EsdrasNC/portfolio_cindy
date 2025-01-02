@@ -292,7 +292,7 @@ li {
   align-items: center;
 }
 /* Notebook (entre 992px e 1200px) */
-@media (max-width: 1200px) and (min-width: 992px) {
+@media (max-width: 1366px) and (min-width: 992px) {
   body {
     font-size: 15px;
     padding: 15px;
