@@ -340,7 +340,7 @@ li {
     font-size: 18px;
   }
   h1 {
-    font-size: 8em;
+    font-size: 10em;
     font-family: "Almarena-bold", sans-serif;
   }
   ul, li {
@@ -362,15 +362,15 @@ li {
   }
   .intro_apresentacao {
     height: 19%;
-    width: 75%;
+    width: 100%;
   }
   .nome_apresentacao {
     height: 25%;
-    width: 77%;
+    width: 100%;
   }
   .text_apresentacao {
     height: 100%;
-    width: 65vw;
+    width: 87vw;
   }
   .apresentacao {
     width: 100%;
@@ -537,7 +537,7 @@ li {
     color: #000000;
     margin: 0;
     /* margin-top: 8px; */
-    font-size: 24px;
+    font-size: 23px;
     text-align: end;
   }
   #geral_orcamento {
@@ -548,7 +548,7 @@ li {
     flex-direction: column;
   }
   .titulo_orcamento {
-    font-size: 33px;
+    font-size: 31px;
     display: flex;
     align-items: center;
     flex-direction: column;
